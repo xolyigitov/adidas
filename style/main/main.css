@@ -1,0 +1,51 @@
+@import url(font.css);
+
+:root {
+    --RR: 'Rubik-Regular';
+    --RL: 'Rubik-Light';
+    --RS: 'Rubik-SemiBold';
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.main__title {
+    text-align: center;
+    color: #000;
+    font-family: var(--RS);
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.main-text {
+    margin-top: 18px;
+    color: #000;
+    font-family: var(--RR);
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.main-content-img {
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    flex-shrink: 0;
+}
+
+@media(max-width:870px){
+    .main-content-img {
+        height:300px;
+    }
+}
+@media(max-width:680px){
+    .main-content-img {
+        height:200px;
+    }
+    
+}
+@media(max-width:530px){
+    .main-content-img {
+        height:180px;
+    }
+}
